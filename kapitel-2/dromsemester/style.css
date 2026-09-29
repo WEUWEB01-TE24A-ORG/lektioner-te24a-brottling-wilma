@@ -2,29 +2,13 @@ body{background-image:url(./bilder/Skärmavbild\ 2025-11-27\ kl.\ 13.17.58.png)
 }
 h1{
     color: rgb(84, 64, 140);
-    font-size: 70px;
     font-family: fantasy;
-    text-transform: uppercase;
-    text-shadow: 5px 5px 0 rgb(129, 112, 215);
-    margin-left: 450px;
 }
 h2{
     color: rgb(84, 64, 140);
-    font-size: 40px;
     font-family: fantasy;
-    text-transform: uppercase;
-    text-shadow: 5px 5px 0 rgb(129, 112, 215);
-    margin-left: 600px;
 }
-p{
-    margin-top: 300px;
-}
+p{color: rgb(84, 64, 140);
+font-family: fantasy;}
 a{color: rgb(84, 64, 140);
-font-family: fantasy;
-font-weight: bold;
-text-decoration: none;
-background-color: rgb(255, 255, 255);
-padding: 10px;
-border-radius: 5px;
-margin-left: 650px;
-padding: 10px 50px 10px;
+font-family: fantasy;}

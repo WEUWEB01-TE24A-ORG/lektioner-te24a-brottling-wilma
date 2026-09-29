@@ -1,0 +1,53 @@
+body{background-image:url(./Bilder/alexandr-rusnac-2tuL7PhM3NI-unsplash.jpg);
+background-size: cover;
+}
+h1{
+    font-family: fantasy;
+    font-size: 72px;
+    color: rgb(25, 11, 38);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 5px 5px 0 rgb(77, 58, 94);
+    
+    margin: 30px 0;
+}
+p{
+    font-family: fantasy;
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(77, 58, 94);
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin:20px auto;
+
+}
+   img {
+   width: 400px;
+   border: 10px solid #241332;
+   border-radius: 10px;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+   margin: 20px auto;
+   display: block;
+}
+table {
+   width: 600px;
+   border-collapse: collapse;
+   margin: 20px auto;
+   color: #ffffff;
+   background-color: rgba(0, 0, 0, 0.6);
+}
+
+caption {
+   font-size: 28px;
+   padding: 10px;
+}
+
+th,
+td {
+   padding: 12px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+   text-align: left;
+}
