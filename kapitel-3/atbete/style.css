@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&family=Nova+Slim&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{background-color: aqua;
+background-image:url(./bilder/arzusumer-cat-7635983_1280.png);
+
+}
+div{
+   font-family: "Kranky", serif;
+   background-color: rgba(107, 88, 75, 0.94);
+   width: 600px;
+   
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 40px;
+   border: 5px dashed #2a1212;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 70px;
+}
