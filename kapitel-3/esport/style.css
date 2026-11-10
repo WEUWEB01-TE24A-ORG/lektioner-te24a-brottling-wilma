@@ -38,6 +38,7 @@ h1{
     ;
 }
 .tvan{
+    background-color: aquamarine;
     display: flex;
     gap: 40px;
 }
