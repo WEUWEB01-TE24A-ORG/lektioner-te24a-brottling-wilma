@@ -9,7 +9,16 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
+/* Färgpalett */
+:root{
+--dark-wine: #6f1d1bff;
+--camel: #bb9457ff;
+--dark-coffee: #432818ff;
+--chocolate-brown: #99582aff;
+--light-apricot: #ffe6a7ff;}
+
 /* Sidan */
+
 body{}
 .kontainer{
     background-color: #fff;
