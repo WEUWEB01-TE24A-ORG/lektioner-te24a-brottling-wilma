@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -12,4 +14,75 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 img {
     max-width: 100%;
     height: auto;
+}
+
+
+/* Sidan */
+body{
+    background-color: rgb(65, 26, 26);
+}
+.kontainer{
+    background-color: #fff;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+
+}
+/* Sidhuvudets utseende */
+header{
+    h1{
+        font-family: "Limelight", sans-serif;
+        font-size: 80px;
+        text-align: center;
+
+    }
+    nav{
+        text-align: center;
+        margin-top: 15px;
+
+        a{
+            background-color: rgb(75, 24, 24);
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            max-width: 100px;
+
+        }
+        a:hover{
+            background-color: #794e4e;
+        }
+        a.aktiv{
+            background-color: #794e4e;
+        }
+    }
+
+}
+main{
+    h2{
+        font-family: "Limelight", sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 15px;
+
+    }
+    figure{
+        width: 400px;
+        padding: 20px;
+        background-color: #401818;
+        margin: auto;
+        text-align: center;
+        img{
+            
+
+        }
+        figcaption{
+            p{}
+
+        }
+    }
+}
+footer{
+    p{
+
+    }
 }
